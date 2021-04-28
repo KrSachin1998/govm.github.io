@@ -1,0 +1,24 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*   styling add student form start  */
+#addStudentForm{
+    margin-left: 210px;
+    margin-top: 60px;
+    padding: 10px;
+    overflow-x: hidden;
+}
+
+#addStudentForm h4{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#addStudentForm .form-group .form-control{
+    display: inline;
+    width: 80%;
+}
+
+/*   styling add student form ends  */

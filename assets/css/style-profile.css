@@ -1,0 +1,21 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contain-tabs{
+    margin-left: 205px;
+    margin-top: 46px;
+}
+
+.contain-tabs #academic #ddlClass,.contain-tabs #academic #ddlSection{
+    height:36px;
+} 
+
+/* overwriting some sidebar styles */
+.sidebar a p{
+    margin-bottom: 15px;
+}
+
+.sidebar a{
+    padding-top:6px;
+}

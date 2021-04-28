@@ -1,0 +1,39 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*   styling add question form start  */
+#testOccuringDetails{
+    margin-left: 200px;
+    margin-top: 70px;
+    padding: 10px;
+    overflow-x: hidden;
+}
+
+#testOccuringDetails .contain-test-details .row{
+    margin-bottom: 0;
+}
+
+#testOccuringDetails .contain-test-details h4{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#testOccuringDetails .containTestId{
+    font-size: 16px;
+}
+
+#testOccuringDetails h5 .lblTestId{
+    font-weight: 500;
+    font-size: 16px;
+    color: dimgrey;
+}
+
+#testOccuringDetails .contain-test-details .form-group label:nth-child(1){
+    display: inline;
+    width: 80%;
+    font-weight: 500;
+}
+
+/*   styling add question form ends  */

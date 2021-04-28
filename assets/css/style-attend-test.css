@@ -1,0 +1,112 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    /* background-image: linear-gradient(to right, rgb(255 255 255 / 0%), rgb(183 183 183)) */
+    background-color: #ecf0f5;
+}
+
+/*======= styling the attend test section starts =======*/
+
+section{
+    margin-top:78px;
+}
+
+section .test-details{
+    margin-bottom: 10px;
+}
+
+section .test-details .class-label{
+    font-weight: 500;
+}
+
+section .test-details label{
+    font-size: 14px;;
+}
+
+section .contain-timer .timer-box{
+    border: 1px solid #3c8dbc;
+    height: 52px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+section .contain-timer .timer-box .timer{
+    text-align: center;
+    padding: 10px 0 0 0;
+    font-weight: 700;
+}
+/*======= styling the attend test section ends =======*/
+
+/*======= styling the modal starts =======*/
+
+section .contain-questions{
+    margin-top: 60px;
+}
+
+section .contain-questions .questionTable {
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  section .contain-questions .question-table-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  section .contain-questions  .question-table-header {
+    text-align: center;
+    padding: 1px 12px;
+    background-color: #3c8dbc;
+    color: white;
+  }
+  
+  section .contain-questions .question-table-body {padding: 2px 10px;}
+
+/*======= styling the modal ends =======*/
+
+/*======= styling the modal question navigation starts =======*/
+
+section .contain-questions .question-table-content .navigate-question{
+    background: #3c8dbc;
+    padding: 2px 10px 2px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+/*======= styling the modal question navigation ends =======*/
+
+/*======= styling the modal contain questions starts =======*/
+
+section .contain-questions .question-table-content .question-table-body .question{
+    font-size: 15px;
+}
+
+.question-table .question-table-content .question-choices .choice-bind label{
+    margin-left: 20px;
+}
+
+
+section .contain-questions .question-table-content .question-table-body .contain-buttons{
+    padding: 10px 0px 15px 0px;
+}
+
+/*======= styling the modal contain questions starts =======*/

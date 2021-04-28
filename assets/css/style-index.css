@@ -1,0 +1,74 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    /* background-image: linear-gradient(to right, rgb(255 255 255 / 0%), rgb(183 183 183)) */
+    background-color: #ecf0f5;
+}
+
+/*======= styling the login box starts =======*/
+
+section .container{
+    margin-top:10%;
+    margin-bottom: 5%;
+}
+
+#login .login-box{
+    padding: 15px 0px 15px 0px;
+    border-radius: 10px;
+    border: 1px solid #B0B6BE;
+    background: white;
+}
+
+#login .login-box .error-message{
+    display: none;                      /* by default it is hidden */
+    margin: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: #8a6d3b;
+    border: 1px solid;
+    background-color: #fcf8e3;
+    border-color: #ffe4ad;
+}
+
+#login .login-box .heading-login{
+    margin-left: 10px;
+}
+
+#login .login-box .col-sm-12{
+    padding-bottom: 10px;
+}
+
+#login .login-box .contain-textbox { position: relative; }
+#login .login-box .contain-textbox input {
+    background-color: #e8f0fe;
+    text-indent: 30px;
+    height: 45px;
+    }
+#login .login-box .contain-textbox .user-icon {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    font-size: 20px;
+    color: #007bff;
+}
+
+#login .login-box .contain-textbox #ddlUserRole{
+    padding-left: 11%;
+    height: 45px;
+    background-color: #e8f0fe;
+}
+
+#login .login-box .contain-buttons #btnLogin{
+    width: 40%;
+    font-weight: 500;
+}
+
+#login .login-box .contain-buttons #lblForgetPassword{
+    font-size: 14px;
+    font-weight: 500;
+    float: right;
+}

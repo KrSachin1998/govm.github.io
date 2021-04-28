@@ -1,0 +1,52 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body{
+    margin:0;
+    padding:0;
+  }
+  
+  /*------------ styling student dashboard starts------------*/
+  .contain-dashboard{
+      margin-left: 200px;
+      margin-top: 80px;
+      margin-right: 10px;
+      overflow-x: hidden;
+  }
+  
+  .contain-dashboard .row{
+      margin:0;
+  }
+  
+  .contain-dashboard .row .card{
+      cursor:pointer;
+  }
+  
+  .contain-dashboard .card-body .card-body-icon {
+    position: absolute;
+    z-index: 0;
+    top: -25px;
+    right: -10px;
+    font-size: 5rem;
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+  
+  .contain-dashboard .card a:hover{
+    text-decoration: none;
+  }
+  /*------------ styling student dashboard ends------------*/
+  
+  /*------------ styling tables start------------*/
+  
+  .contain-dashboard .contain-tables .col-sm-6 h5{
+    font-size: 15px;
+  }
+  .contain-dashboard .contain-tables tr td{
+      padding:5px;
+  }
+
+
+  /*------------ styling tables end------------*/

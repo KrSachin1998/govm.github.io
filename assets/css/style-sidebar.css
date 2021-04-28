@@ -1,0 +1,123 @@
+body{
+    margin:0;
+    padding:0;
+}
+/*------------sidebar starts------------*/
+.sidebar {
+    top:55px;
+    /* margin: 0; */
+    padding: 0;
+    width: 200px; 
+    background-color: #e4e4e4;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    /* z-index:1; */
+    transition: 0.3s;
+    border-right: 1px solid #3c8dbc47;
+  }
+  
+  .sidebar a {
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+    color: black;
+    padding: 2px 0px 2px 0px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .sidebar button{
+    margin-left:30%
+  }
+
+  .sidebar a:hover {
+    background-color: #ffffff!important;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .activeSideBarLink{
+    background-color: #d33d1f;
+    color:white !important;
+  }
+  
+  .openbtn {
+    visibility: hidden;
+    position: fixed;
+    z-index: 2;
+    top:10px;
+    margin-left: 15px;
+    font-size: 24px;
+    padding: 2px 4px 4px 4px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3c8dbc;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .closebtn i{               /* so that .sidebar a cannot override the font size of close button */
+    font-size:20px;
+}
+
+
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  /*-----------making the sidebar responsive------------*/
+  
+  @media only screen and (max-width:618px){
+    .topnav a {
+      transition: 0.1s;
+    }
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        background-color: #e4e4e4;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 5px;
+      }
+      
+      .sidebar a {
+        text-decoration: none;
+        font-size: 12px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+      }
+      
+  }
+  @media screen and (min-width:618px){
+    .sidebar {
+      /* margin: 2px; */
+      padding: 0;
+      /* width: 110px;  */
+      width: 200px;
+      background-color: #e4e4e4;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
+  }
+  
+  .dropbtn {
+  font-size: 16px;
+  border: none;
+  }
+  
+  .dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left:50px;
+  }

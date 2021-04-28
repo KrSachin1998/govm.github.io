@@ -1,0 +1,45 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*   styling add test form start  */
+#addTestForm{
+    margin-left: 205px;
+    margin-top: 60px;
+    padding: 10px;
+    overflow-x: hidden;
+}
+
+#addTestForm h4{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#addTestForm h5 .lblTestId{
+    font-weight: 500;
+    font-size: 16px;
+    color: dimgrey;
+    margin-bottom: 25px;
+}
+
+#addTestForm .form-group .form-control{
+    display: inline;
+    width: 80%;
+}
+
+#addTestForm #tblCreatedTest #tblCreatedTestBody tr td{
+    padding: 0px;
+}
+
+/*   styling add test form ends  */
+
+
+/* overwriting some sidebar styles */
+.sidebar a p{
+    margin-bottom: 15px;
+}
+
+.sidebar a{
+    padding-top:6px;
+}

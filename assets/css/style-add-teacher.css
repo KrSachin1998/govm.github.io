@@ -1,0 +1,60 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*   styling add teacher form start  */
+#addTeacherForm{
+    margin-left: 210px;
+    margin-top: 60px;
+    padding: 10px;
+    overflow-x: hidden;
+}
+
+#addTeacherForm h4{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#addTeacherForm .form-group .form-control{
+    display: inline;
+    width: 80%;
+}
+
+#addTeacherForm .form-group .contain-class{
+    padding:5px;
+}
+
+#addTeacherForm .form-group .contain-class label{
+    margin-right:30px;
+}
+
+/*   styling add teacher form ends  */
+
+/*======= small table starts ========*/
+#containSmallTbl{
+    border-radius: 5px;
+    padding: 0px 0px 0px 5px;
+    cursor: pointer;
+}
+#containSmallTbl .closeSmTable{
+    float: right;
+    padding: 0 5px 0 0;
+    font-size: 16px;
+    font-weight: 800;
+}
+#containSmallTbl span{
+    margin: 0;
+    font-size: 13px;
+    color: blue;
+}
+#containSmallTbl .ddlSmTbl tr{
+    background-color: unset;
+}
+#containSmallTbl .ddlSmTbl tr td{
+    padding: 0;
+    border: unset;
+    font-size:12px;
+}
+
+/*======= small table ends =========*/
